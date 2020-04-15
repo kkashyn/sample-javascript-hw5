@@ -95,6 +95,7 @@ function toPreviousSlide() {
 previousButton.addEventListener("click", toPreviousSlide);
 
 let pressKeyControl = (e) => {
+  pauseSlideShow();
   if (e.key === LEFT_ARROW) previousSlide();
   if (e.key === RIGHT_ARROW) nextSlide();
   if (e.key === SPACE) toPauseIfPlay();
