@@ -106,13 +106,3 @@ body {
   border-color: #ff0000;
   background-color: #ff0000;
 }
-
-.indicators__item:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
-
-.controls__item:hover {
-  color: #ff0000;
-  cursor: pointer;
-}
